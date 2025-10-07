@@ -12,33 +12,28 @@ permalink: /learning_capacity/
     <h2 class="alt-h2 mb-4">Learning & Capacity Building</h2>
   </div>
     <div class="mt-3 animate-in">
-      <h3 class="alt-h3 mt-3 animate-in" style="font-size: 1.25rem;">
-          <strong>📘 Aiming for Open University New Course Launch Soon</strong>
+       <h3 class="alt-h3 mt-3 animate-in" style="font-size: 1.25rem;">
+        <a href="https://www.open.edu/openlearncreate/course/view.php?id=13558" class="text-dark font-weight-bold" style="text-decoration: none;">
+          <strong>📘 Open University Course on Financial Analysis of Power Sector Projects Using the FINPLAN Model</strong>
         </a>
       </h3>
-      <!---
-      <p class="animate-in" style="font-size: 0.95rem;".</p>
+      <p class="animate-in" style="font-size: 0.95rem;">This training course will provide basic knowledge on financial theory, will show how financing is done in the power sector across the world, with primary focus on developing countries, and will demonstrate how to carry out financial analysis of power projects using FINPLAN. </p>
       <p class="animate-in">
-        <a href="https://www.open.edu/openlearncreate/course/view.php?id=13558" class="btn btn-outline-light">Access Here →</a>
+        <a href="https://www.open.edu/openlearncreate/course/view.php?id=13669" class="btn btn-outline-light">Access Here →</a>
       </p>
     </div>
---->
 
-<!---
+
     <div class="mt-3 animate-in">
-      <h3 class="alt-h3 mt-3 animate-in" style="font-size: 1.25rem;">📦 Starter Data Kits</h3>
-      <p class="animate-in" style="font-size: 0.95rem;">Take your skills to the next level by modelling a zero-order representation of your country using specially designed national data packages adapted for OSeMOSYS.</p>
-      <div class="row align-items-center mb-4 animate-in">
-        <div class="col-md-6">
-          <p class="animate-in" style="font-size: 0.95rem;">Enhance your skills in energy systems modelling with our user-friendly interface and additional learning materials, enabling comprehensive national-level modelling of the power and transport sectors.</p>
+      <h3 class="alt-h3 mt-3 animate-in" style="font-size: 1.25rem;">📦 User Interface/Download Link</h3>
+      <p class="animate-in" style="font-size: 0.95rem;">Enhance your skills in financial analysis of energy projects with our user-friendly interface and supporting learning materials, enabling comprehensive assessments of power sector investment viability at the national level.</p>
           <ul class="animate-in">
-            <li><strong>Download Interface</strong> – <em>Coming soon</em></li>
-            <li><strong>Teaching Material (Zenodo)</strong> – <em>Coming soon</em></li>
+            <li><strong>Download Interface</strong> https://forms.office.com/Pages/ResponsePage.aspx?id=wE8mz7iun0SQVILORFQISwwn5YyR7ONHs-3JdG3f5AFUODlJOEQwWTBXMlRRNFUwNEpUTUZYQ1RXOS4u </li>
           </ul>
         </div>
       </div>
     </div>
-
+<!--
     <div class="mt-3 animate-in">
       <h3 class="alt-h3 mt-1 animate-in" style="font-size: 1.25rem;">🎓 Energy Modelling Community (YouTube Playlist)</h3>
       <div class="row align-items-center text-left mb-4 animate-in">
@@ -48,6 +43,7 @@ permalink: /learning_capacity/
         </div>
       </div>
     </div>
+-->
 
     <div class="mt-3 animate-in">
       <h3 class="alt-h3 mt-3 animate-in" style="font-size: 1.25rem;">
@@ -81,29 +77,40 @@ permalink: /learning_capacity/
               {% endfor %}
             </ul>
           </details>
+          {% if event.links %}
+  <p class="mt-2"><strong>Related Links:</strong></p>
+  <ul class="mt-1">
+    {% for link in event.links %}
+      <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}
         </div>
         {% endfor %}
       </div>
--->
-<!--
-      <!-- EMP-Adjacent Events 
+
+ EMP-Adjacent Events 
       <div class="clearfix gutter-spacious">
         <div class="col-md-12 animate-in mb-4">
           <h3 class="alt-h3 mb-3">EMP-Adjacent Events</h3>
-          <p class="text-gray">These capacity building events used the OSeMOSYS methodology outside the formal EMP series:</p>
+          <p class="text-gray">These capacity building events used the FINPLAN methodology outside the formal EMP series:</p>
           <ul>
             {% for adjacent in site.data.learning_events.adjacent_events %}
-            <li class="animate-in">{{ adjacent.flag }} <a href="{{ adjacent.url }}" target="_blank">{{ adjacent.title }}</a></li>
-            {% endfor %}
+  <li class="animate-in mb-3">
+    {{ adjacent.flag }} 
+    <a href="{{ adjacent.url }}" target="_blank">{{ adjacent.title }}</a>
+    {% if adjacent.image %}
+      <div><img src="{{ adjacent.image }}" class="img-fluid mt-2" alt="{{ adjacent.title }}"/></div>
+    {% endif %}
+  </li>
+{% endfor %}
           </ul>
         </div>
       </div>
     </div>
 
-    <h3 class="alt-h3 mt-3 animate-in" style="font-size: 1.25rem;">🛠️ Flatpack Program</h3>
-    <p class="animate-in" style="font-size: 0.95rem;">Content to be updated soon.</p>
   
-  -->
+
   </div>
 </section>
 

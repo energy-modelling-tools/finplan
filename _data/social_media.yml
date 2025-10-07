@@ -1,10 +1,14 @@
 - name: GitHub
   icon: bi bi-github
-  url:   https://github.com/FossilFuelRetirementModel/ffrm_python 
+  url: https://github.com/FINPLAN-Model 
 
 - name: Discord
   icon: bi bi-discord
   url: https://forum.u4ria.org/
 
+
+- name: linkedin
+  icon: bi bi bi-linkedin
+  url: https://www.linkedin.com/company/optimus-finplan 
 
 

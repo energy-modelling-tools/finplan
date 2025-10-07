@@ -1,8 +1,28 @@
 # Partner institutions for homepage display
 partners:
-  - name: worldbank
-    logo: /assets/img/partners/worldbank.png
-    display_name: World Bank Group
-    url: https://www.worldbank.org/
-    
+  - name: International Atomic Energy Agency (IAEA) 
+    logo: /assets/img/partners/IAEA.png
+    display_name: International Atomic Energy Agency
+    url: https://www.iaea.org/  
+
+  - name: Climate Compatible Growth (CCG)
+    logo: /assets/img/partners/CCG.png
+    display_name: Climate Compatible Growth 
+    url: https://climatecompatiblegrowth.com/ 
+
+  - name: Imperial College London (ICL)
+    logo: /assets/img/partners/ICL.jpg
+    display_name: Imperial College London 
+    url:  https://www.imperial.ac.uk/  
+
+  - name: Loughborough University (LU)
+    logo: /assets/img/partners/LU.png
+    display_name: Loughborough University
+    url: https://www.lboro.ac.uk/ 
+
+  - name: University of Oxford (UO)
+    logo: /assets/img/partners/UO.png
+    display_name: University of Oxford
+    url:  https://www.ox.ac.uk/   
+
 

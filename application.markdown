@@ -6,86 +6,35 @@ permalink: /applications/
 ---
 <section class="bg-gray-light container-lg p-responsive py-4 py-md-6 my-lg-6 fade-in-center">
   <div class="text-center fade-in-center">
-    <h2 class="alt-h2 mb-4">FFRM Applications</h2>
+    <h2 class="alt-h2 mb-4">FINPLAN Applications</h2>
   </div>
 
   <div class="applications-content text-left">
-    <p class="lead mb-4">FFRM is a useful tool for assessing the stranded cost implications that may arise as a country decarbonizes its electricity sector. The model was originally developed by the World Bank to assess stranded cost under various defined scenarios, with its most recent application in exploring the stranded cost implications of decarbonizing India and the Philippines power sector. </p>
+    <p class="lead mb-4">FINPLAN can be used for a wide range of financial analysis applications across government, utilities, and development institutions. Several examples include:  </p>
 
-    <!--
      <div class="applications-grid">
       <div class="application-category">
-        <h3 class="category-title">Governments</h3>
+        <h3 class="category-title">International Organistations</h3>
         <ul class="application-list">
-          <li><a href="https://energypedia.info/wiki/LTEM_-_Energy_Department_of_the_Cyprus_Institute">National Energy and Climate Plan in Cyprus</a></li>
+          <li><a href="https://inis.iaea.org/records/jxtmq-ake29">NAnalysing the financial viability of WASP expansion plans using the FINPLAN model.</a></li>
         </ul>  
-      </div>
-
-      <div class="application-category">
-        <h3 class="category-title">Industry and Think Tanks</h3>
-        <ul class="application-list">
-          <li><a href="https://www.globalccsinstitute.com/wp-content/uploads/2021/10/genzo1123.pdf">Global CCS Institute</a></li>
-        </ul>
       </div>
 
       <div class="application-category">
         <h3 class="category-title">Academia</h3>
         <ul class="application-list">
-          <li><a href="https://kth.diva-portal.org/smash/get/diva2:1576316/FULLTEXT01.pdf">Politecnico di Milano – 
+          <li><a href="https://nucet.pensoft.net/article/54003/">Assessment of costs of nuclear power in Bangladesh.
         </ul>
       </div>
     </div>
   </div>
 </section>
 
- <section class="container-lg p-responsive py-4 py-md-6 my-lg-6">
-  <div class="text-center mb-5">
-    <h2 class="alt-h2">Specialist versions of the tool</h2>
-  </div>
-
-  <div class="slider-wrapper my-5">
-    <div class="arrow arrow-left" onclick="slideTextPrev()">‹</div>
-
-    <div class="slider-container">
-      <div class="slider" id="textSlider">
-        <div class="slide-card">
-          <h3>OSeMOSYS Global</h3>
-          <p><a href="https://osemosys-global.readthedocs.io/en/latest/" target="_blank">Open-source global electricity model</a></p>
-        </div>
-
-        <div class="slide-card">
-          <h3>GENESYS-MOD</h3>
-          <p><a href="https://git.tu-berlin.de/genesysmod/genesys-mod-public" target="_blank">Modular European decarbonisation model</a></p>
-        </div>
-
-        <div class="slide-card">
-          <h3>TEMBA</h3>
-          <p><a href="https://zenodo.org/records/3521841" target="_blank">The African electricity model base</a></p>
-        </div>
-
-        <div class="slide-card">
-          <h3>OSeMBE</h3>
-          <p><a href="https://github.com/HauHe/OSeMBE" target="_blank">Open Source energy Model – Base for Europe</a></p>
-        </div>
-
-        <div class="slide-card">
-          <h3>SAMBA</h3>
-          <p><a href="http://www.osemosys.org/samba.html" target="_blank">Southern African Model Base for Analysis</a></p>
-        </div>
-      </div>
-    </div>
-
-    <div class="arrow arrow-right" onclick="slideTextNext()">›</div>
-  </div>
-
-  <div class="slider-dots text-center mt-3" id="sliderDots"></div>
-</section>
--->
 
 <section class="container-lg p-responsive py-4 py-md-6 my-lg-6">
   <div class="recommended-reading">
     <h2 class="alt-h2 text-center mb-4">Recommended Reading</h2>
-    <p class="text-center mb-5">For a broader analysis of applications and advancements in OSeMOSYS, see the following peer-reviewed publications:</p>
+    <p class="text-center mb-5">For a broader analysis of applications and advancements in FINPLAN, see the following peer-reviewed publications:</p>
 
     <div class="publications-list">
       {% for publication in site.data.publications %}
