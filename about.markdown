@@ -1,7 +1,7 @@
 ---
 theme: jekyll-theme-primer
 layout: sub-page
-title: FFRM
+title: FINPLAN
 permalink: /about/
 ---
 <section class="bg-gray-light container-lg p-responsive py-4 py-md-6 my-lg-6 fade-in-center">
@@ -19,7 +19,7 @@ permalink: /about/
       FINPLAN is a financial analysis tool that evaluates the viability and performance of power generation projects. It simulates financial statements, assesses risks, and determines whether a project is financially sustainable over its lifetime. 
       </p>
     </div>
-    <h2 class="aboutpage-subtitle text-left mb-3 mt-lg-6" id="more-than-just-code">What is the scoope of the model?</h2>
+    <h2 class="aboutpage-subtitle text-left mb-3 mt-lg-6" id="more-than-just-code">What is the scope of the model?</h2>
     <div class="col-md-12 animate-out mb-2">
       <p class="alt-lead text-gray text-justify-between col-md-15 mx-auto" style="text-align: justify; font-size: 0.875em;">
       FINPLAN focuses on the financial dimension of electricity sector investments. It analyses capital and operational costs, funding structures, loan terms, tariffs, and revenue streams, producing outputs such as cash flow statements, shareholders’ returns, and key financial ratios. 

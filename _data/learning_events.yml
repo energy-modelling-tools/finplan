@@ -200,7 +200,7 @@ events:
 
 adjacent_events:
    - country: "Sierra Leone"
-    flag: "🇸🇱"
-    title: "Sierra Leone FINPLAN Workshop"
-    url: "https://www.linkedin.com/feed/update/urn:li:activity:7313562696170299393/"
-    image: "/assets/img/EMP/SL_2025.png"
+     flag: "🇸🇱"
+     title: "Sierra Leone FINPLAN Workshop"
+     url: "https://www.linkedin.com/feed/update/urn:li:activity:7313562696170299393/"
+     image: "/assets/img/EMP/SL_2025.png"

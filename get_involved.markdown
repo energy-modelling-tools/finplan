@@ -1,7 +1,7 @@
 ---
 theme: jekyll-theme-primer
 layout: sub-page
-title: FFRM
+title: FINPLAN
 permalink: /contact/
 ---
 
