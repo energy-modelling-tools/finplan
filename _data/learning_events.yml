@@ -104,7 +104,7 @@ events:
         url: "No link available"
 
   - title: "EMP-G 2023 – Trieste, Italy"
-    image: "../assets/img/EMP/EMP-G_2023.jpg"
+    image: "../assets/img/EMP/EMP-LAC_2023.jpg"
     alt: "EMP-G 2023"
     description: "The Energy Modelling Platform – Global was held from 26th June to 14th July 2023 at the Abdus Salam International Centre for Theoretical Physics (ICTP) in Trieste, Italy."
     outputs:
