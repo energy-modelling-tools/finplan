@@ -25,31 +25,7 @@ permalink: /learning_capacity/
 
     <div class="mt-5">
       <h3 class="alt-h3 text-center">🌍 Explore EMP Events</h3>
-      <div class="clearfix gutter-spacious">
-        {% for event in site.data.learning_events.events %}
-        <div class="col-md-4 float-left animate-in mb-4">
-          <h3 class="alt-h3 mb-3">{{ event.title }}</h3>
-          <p><img src="{{ event.image }}" class="img-fluid" alt="{{ event.alt }}"/></p>
-          <p class="text-gray">{{ event.description }}</p>
-          <details>
-            <summary class="btn btn-sm btn-outline toggle-arrow">Show Outputs</summary>
-            <ul class="mt-2">
-              {% for output in event.outputs %}
-              <li>{{ output.flag }} <strong>{{ output.country }}</strong>: <a href="{{ output.url }}" target="_blank">{{ output.title }}</a></li>
-              {% endfor %}
-            </ul>
-          </details>
-          {% if event.links %}
-            <p class="mt-2"><strong>Related Links:</strong></p>
-            <ul class="mt-1">
-              {% for link in event.links %}
-                <li><a href="{{ link.url }}" target="_blank">{{ link.title }}</a></li>
-              {% endfor %}
-            </ul>
-          {% endif %}
-        </div>
-        {% endfor %}
-      </div>
+      {% include learning_events_grid.html %}
     </div>
 
     <div class="mt-5">
